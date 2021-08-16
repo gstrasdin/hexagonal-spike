@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{F210F3BA-C788-4D7A-9D6A-94B5790FF3B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalSpike.Application", "HexagonalSpike.Application\HexagonalSpike.Application.csproj", "{4645A477-F9CC-4D4F-9680-6DBFCDBD0242}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalSpike.Domain", "HexagonalSpike.Domain\HexagonalSpike.Domain.csproj", "{C7DA2F74-C5E9-4A1F-8024-B144A97E4FCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalSpike.Adapters.In.WebApi", "HexagonalSpike.Adapters.In.WebApi\HexagonalSpike.Adapters.In.WebApi.csproj", "{A1A337DA-6564-41D9-806B-37F08E0D6B3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalSpike.Adapters.Out.Persistence", "HexagonalSpike.Adapters.Out.Persistence\HexagonalSpike.Adapters.Out.Persistence.csproj", "{F1D276A0-9F57-4B67-8DCD-2387E62651C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F210F3BA-C788-4D7A-9D6A-94B5790FF3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F210F3BA-C788-4D7A-9D6A-94B5790FF3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F210F3BA-C788-4D7A-9D6A-94B5790FF3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F210F3BA-C788-4D7A-9D6A-94B5790FF3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4645A477-F9CC-4D4F-9680-6DBFCDBD0242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4645A477-F9CC-4D4F-9680-6DBFCDBD0242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4645A477-F9CC-4D4F-9680-6DBFCDBD0242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4645A477-F9CC-4D4F-9680-6DBFCDBD0242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DA2F74-C5E9-4A1F-8024-B144A97E4FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DA2F74-C5E9-4A1F-8024-B144A97E4FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DA2F74-C5E9-4A1F-8024-B144A97E4FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DA2F74-C5E9-4A1F-8024-B144A97E4FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A337DA-6564-41D9-806B-37F08E0D6B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A337DA-6564-41D9-806B-37F08E0D6B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A337DA-6564-41D9-806B-37F08E0D6B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A337DA-6564-41D9-806B-37F08E0D6B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D276A0-9F57-4B67-8DCD-2387E62651C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D276A0-9F57-4B67-8DCD-2387E62651C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D276A0-9F57-4B67-8DCD-2387E62651C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D276A0-9F57-4B67-8DCD-2387E62651C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1E0EAC3-B317-46DD-95DD-939E79DC584F}
+	EndGlobalSection
+EndGlobal
